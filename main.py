@@ -234,7 +234,7 @@ def review_json_db_insert(review_json_folder):
                 except:
                     pass
                 try:
-                    review_dict['asin_code'] = product.split('.')[0]
+                    review_dict['asin'] = product.split('.')[0]
                 except:
                     pass
                 try:
@@ -269,7 +269,7 @@ def review_json_db_insert(review_json_folder):
                     review_dict['rating'] = review['rating']
                 except:
                     pass
-                try:
+                try:    
                     review_dict['date'] = review['date']['utc']
                 except:
                     pass
