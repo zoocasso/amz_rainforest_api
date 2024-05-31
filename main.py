@@ -298,7 +298,7 @@ if __name__ == "__main__":
     url = "https://api.rainforestapi.com/request"
     input_folder_name = 'keyword'
     search_json_folder = 'result/search_json'
-    product_json_folder = 'result/product_json1'
+    product_json_folder = 'result/product_json'
     review_json_folder = 'result/review_json'
 
     with open("input.txt",'r',encoding="UTF8") as f:
