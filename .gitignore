@@ -1,1 +1,4 @@
 *venv*
+keyword/
+result/
+.env
